@@ -18,5 +18,10 @@ sudo apt-get install unzip -y
 unzip awscliv2.zip
 sudo ./aws/install
 
+# Install docker
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+
 echo "Installation completed successfully."
 
